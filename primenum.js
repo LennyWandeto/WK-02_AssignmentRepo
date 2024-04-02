@@ -15,7 +15,10 @@ function isPrime(num){
     return true;
 }
 // Function to finally give the array of numbers 
-function primesFiltered([numbers]){
+function primesFiltered(numbers){
     // Filter the numbers in which the statement is true in isPrime
     return numbers.filter(isPrime)
 }
+
+let huh = primesFiltered([20,21,22,23,24,25,26,27,28,29,30])
+console.log(huh);
